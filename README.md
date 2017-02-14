@@ -10,7 +10,7 @@ colors:
   primary: |
     The primary color is a darker shade of orange to allow it to stand out from the rest.
   secondary: |
-    The secondary color is a lighter orange used for hover states or give more interest to a piece
+    The secondary color is a darker brown grey used for hover states or give more interest to a piece
   neutral: |
     the neutral colors a bland, their real purpose is for body copy tables ect.
 ---
