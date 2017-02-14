@@ -1,0 +1,46 @@
+:root {
+  --color-primary: #fff1e3;
+  --color-primary-light: white;
+  --color-secondary: #7f7871;
+  --color-accent: #ecbb8b;
+  --color-neutral-beige: #e2e2e2;
+  --color-whatever: white;
+
+  --font-primary: sans-serif;
+  --font-secondary: "Roboto Slab", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: white;
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+a {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+ul {
+  font-family: var(--font-secondary);
+}
+
+ol {
+  font-family: var(--font-secondary);
+}
+
+blockquote {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: white;
+}
