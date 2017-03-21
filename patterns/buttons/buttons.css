@@ -1,0 +1,10 @@
+.style {
+  color: white;
+  background-color: var(--color-primary);
+  border-radius: 8px;
+  border-color: var(--colour-light);
+}
+
+html {
+  background-color: var(--color-secondary);
+}
