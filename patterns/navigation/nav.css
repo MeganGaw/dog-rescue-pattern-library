@@ -1,0 +1,29 @@
+ul {
+  background-color: var(--color-secondary);
+}
+
+span {
+  color: white;
+}
+
+.text-dec {
+  text-decoration: none;
+}
+
+span {
+  border-right: white 2px solid;
+}
+
+li:last-child span {
+  border-right: 0px;
+}
+
+a:hover {
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 4px;
+}
+
+ul {
+  border-bottom: 4px solid var(--color-primary);
+}
