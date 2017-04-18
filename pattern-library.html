@@ -57,6 +57,7 @@
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#footer">Footer</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#forms">Forms</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#foundations">Foundations</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#home">Home</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#navigation">Navigation</a></li>
           </ul>
         </nav>
@@ -624,6 +625,11 @@
         </div>
   </div>
 
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>Adoption Page: |
+the basic layout for animals to be adopted, clickable cards to bring you to more information</p>
+</div>
+    </div>
 
   
 
@@ -650,63 +656,114 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;div class="grid"&gt;
-  &lt;h1 class=" unit yotta pad-t xs-1 text-center">Adopt&lt;/h1>
-  &lt;h2 class=" unit color xs-1 text-center">Pick a furry friend!&lt;/h2>
-  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
+              <code><pre>&lt;div class="max-height relative"&gt;
+  &lt;img class="img-flex" src="../../images/banner.jpg" alt="Dog photo">
+  &lt;div class="absolute pin-tl pad-t">
+    &lt;i class="icon i-96  pad-t-2 gutter-2 ">
+        &lt;a href="../home/home.html">
+          &lt;svg>
+            &lt;use xlink:href="../../images/icons-w.svg#16"/>
+          &lt;/svg>
+        &lt;/a>
+      &lt;/i>
+  &lt;/div>
+  &lt;h1 class="text-center pin-bc yotta pad-t-1-2 absolute">Birch Haven&lt;/h1>
+&lt;/div>
+&lt;nav class="bg push-none pad-t-1-2">
+  &lt;ul class="list-group list-group-inline center-text">
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="../home/home.html">
+        &lt;span class="gutter-1-2"> Foundation &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="../adopt/adopt.html">
+        &lt;span class="gutter-1-2"> Adopt &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="../forms/form.html">
+        &lt;span class="gutter-1-2"> Application &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="#">
+        &lt;span class="gutter-1-2"> Contact Us &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="#">
+        &lt;span class="gutter-1-2"> Donations&lt;/span>
+      &lt;/a>
+    &lt;/li>
+  &lt;/ul>
+  &lt;h2 class="yotta pad-b-1-2 text-center">Adopt&lt;/h2>
+&lt;/nav>
+&lt;div class="grid">
+  &lt;h3 class=" unit color xs-1 text-center">Pick a furry friend!&lt;/h3>
+  &lt;div class="unit xs-1 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
     &lt;div class="card gutter-1-2">
-      &lt;h2 class="push-1-4 text-center zetta">Rocko&lt;/h2>
+      &lt;h3 class="push-1-4 text-center zetta">Rocko&lt;/h3>
       &lt;i class="icon i-128 push-1-2 block center-block">
           &lt;img class="push-1-2 block center-block" src="../../images/adopt/rocko.jpg">
         &lt;/i>
       &lt;p class="push-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt in felis ac accumsan. Proin.&lt;/p>
     &lt;/div>
   &lt;/div>
-  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
+  &lt;div class="unit xs-1 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
     &lt;div class="card gutter-1-2">
-      &lt;h2 class="push-1-4 text-center zetta">Pete&lt;/h2>
+      &lt;h3 class="push-1-4 text-center zetta">Pete&lt;/h3>
       &lt;i class="icon i-128 push-1-2 block center-block">
           &lt;img class="push-1-2 block center-block" src="../../images/adopt/pete.jpg">
         &lt;/i>
       &lt;p class="push-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt in felis ac accumsan. Proin.&lt;/p>
     &lt;/div>
   &lt;/div>
-  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
+  &lt;div class="unit xs-1 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
     &lt;div class="card gutter-1-2">
-      &lt;h2 class="push-1-4 text-center zetta">Luci&lt;/h2>
+      &lt;h3 class="push-1-4 text-center zetta">Luci&lt;/h3>
       &lt;i class="icon i-128 push-1-2 block center-block">
           &lt;img class="push-1-2 block center-block" src="../../images/adopt/luci.jpg">
         &lt;/i>
       &lt;p class="push-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt in felis ac accumsan. Proin.&lt;/p>
     &lt;/div>
   &lt;/div>
-  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
+  &lt;div class="unit xs-1 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
     &lt;div class="card gutter-1-2">
-      &lt;h2 class="push-1-4 text-center zetta">Bull&lt;/h2>
+      &lt;h3 class="push-1-4 text-center zetta">Bull&lt;/h3>
       &lt;i class="icon i-128 push-1-2 block center-block">
           &lt;img class="push-1-2 block center-block" src="../../images/adopt/bull.jpg">
         &lt;/i>
       &lt;p class="push-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt in felis ac accumsan. Proin.&lt;/p>
     &lt;/div>
   &lt;/div>
-  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
+  &lt;div class="unit xs-1 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
     &lt;div class="card gutter-1-2">
-      &lt;h2 class="push-1-4 text-center zetta">Tamera&lt;/h2>
+      &lt;h3 class="push-1-4 text-center zetta">Tamera&lt;/h3>
       &lt;i class="icon i-128 push-1-2 block center-block">
           &lt;img class="push-1-2 block center-block" src="../../images/adopt/tamera.jpg">
         &lt;/i>
       &lt;p class="push-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt in felis ac accumsan. Proin.&lt;/p>
     &lt;/div>
   &lt;/div>
-  &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
+  &lt;div class="unit xs-1 s-1-2 m-1-2 l-1-3 island-1-2 gutter-1-2 pad-1-2">
     &lt;div class="card gutter-1-2">
-      &lt;h2 class="push-1-4 text-center zetta">Monti&lt;/h2>
+      &lt;h3 class="push-1-4 text-center zetta">Monti&lt;/h3>
       &lt;i class="icon i-128 push-1-2 block center-block">
           &lt;img class="push-1-2 block center-block" src="../../images/adopt/monti.jpg">
         &lt;/i>
       &lt;p class="push-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt in felis ac accumsan. Proin.&lt;/p>
     &lt;/div>
   &lt;/div>
+&lt;/div>
+&lt;div class="bg text-center pad-b">
+  &lt;ul class=" pad-t pad-b">
+    &lt;li class="giga">&lt;b>Contact Us&lt;/b>&lt;/li>
+    &lt;li>&lt;b>Phone:&lt;/b> (613) 725-4279&lt;/li>
+    &lt;li>&lt;b>Adress:&lt;/b> 2425 Totem Ranch Road West &lt;br> RR#1 Oxford Station, ON, K0G 1T0 &lt;/li>
+    &lt;li>&lt;b>Email:&lt;/b> gwen@birchhaven.org&lt;/li>
+  &lt;/ul>
+  &lt;a class="btn milli style" href="#"> Back to top&lt;/a>
 &lt;/div>
 </pre></code>
             </div>
@@ -728,6 +785,11 @@
         </div>
   </div>
 
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>Banner: |
+To go at the top of every page, create an even look and feel through out, image may change per page.</p>
+</div>
+    </div>
 
   
 
@@ -791,6 +853,11 @@
         </div>
   </div>
 
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>basic-button: |
+This button style should be used anytime a button needs to be placed on any page.</p>
+</div>
+    </div>
 
   
 
@@ -883,12 +950,10 @@ The icon card is generally used for calls-to-action on the homepage or highlight
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
               <code><pre>&lt;div class="grid"&gt;
-  &lt;div class="unit xs-1-2 s-1-2 m-1-3 card island-1-2 gutter-1-2 pad-1-2">
-    &lt;h2 class="push-1-4 text-center zetta">This is a card &lt;/h2>
+  &lt;div class="unit card gutter-1-2">
+    &lt;h3 class="push-1-4 text-center zetta">Rocko&lt;/h3>
     &lt;i class="icon i-128 push-1-2 block center-block">
-        &lt;svg>
-          &lt;use xlink:href="../../images/icons.svg#logo-32"/>
-        &lt;/svg>
+        &lt;img class="push-1-2 block center-block" src="../../images/adopt/rocko.jpg">
       &lt;/i>
     &lt;p class="push-0 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt in felis ac accumsan. Proin.&lt;/p>
   &lt;/div>
@@ -962,6 +1027,11 @@ The icon card is generally used for calls-to-action on the homepage or highlight
         </div>
   </div>
 
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>footer: |
+To be at the bottom of every page to finish off the content.</p>
+</div>
+    </div>
 
   
 
@@ -1017,6 +1087,11 @@ The icon card is generally used for calls-to-action on the homepage or highlight
         </div>
   </div>
 
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>forms: |
+Basic layout for any form that needs to be styled on website</p>
+</div>
+    </div>
 
   
 
@@ -1043,7 +1118,50 @@ The icon card is generally used for calls-to-action on the homepage or highlight
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;div class="max-length"&gt;
+              <code><pre>&lt;div class="max-height relative"&gt;
+  &lt;img class="img-flex" src="../../images/banner.jpg" alt="Dog photo">
+  &lt;div class="absolute pin-tl pad-t">
+    &lt;i class="icon i-96  pad-t-2 gutter-2 ">
+        &lt;a href="../home/home.html">
+          &lt;svg>
+            &lt;use xlink:href="../../images/icons-w.svg#16"/>
+          &lt;/svg>
+        &lt;/a>
+      &lt;/i>
+  &lt;/div>
+  &lt;h1 class="text-center pin-bc yotta pad-t-1-2 absolute">Birch Haven&lt;/h1>
+&lt;/div>
+&lt;nav class="bg push-none pad-t-1-2">
+  &lt;ul class="list-group list-group-inline center-text">
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="../home/home.html">
+        &lt;span class="gutter-1-2"> Foundation &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="../adopt/adopt.html">
+        &lt;span class="gutter-1-2"> Adopt &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="../forms/form.html">
+        &lt;span class="gutter-1-2"> Application &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="#">
+        &lt;span class="gutter-1-2"> Contact Us &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="#">
+        &lt;span class="gutter-1-2"> Donations&lt;/span>
+      &lt;/a>
+    &lt;/li>
+  &lt;/ul>
+  &lt;h2 class="yotta pad-b-1-2 text-center">Application&lt;/h2>
+&lt;/nav>
+&lt;div class="max-length pad-b">
   &lt;form class="push-0 pad-t-2 pad-b gutter" method="POST" action="#">
     &lt;h1 class="normal">Want to adopt a dog?&lt;/h1>
     &lt;p class="mega">We are looking for the best of the best to adopt our little furballs, fill out the following regristartion form to see if you meat the mark&lt;/p>
@@ -1071,7 +1189,7 @@ The icon card is generally used for calls-to-action on the homepage or highlight
           &lt;input id="email" required aria-describedby="email-error">
           &lt;p class="error-message milli island-1-4 push-0" id="email-error">
             &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide a properly formatted email adress&lt;/span>
+            &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
           &lt;/p>
         &lt;/div>
         &lt;div class="push unit xs-1 s-1 m-1 l-1-2">
@@ -1093,7 +1211,7 @@ The icon card is generally used for calls-to-action on the homepage or highlight
         &lt;textarea id="adr" name="address" required aria-describedby="adr-error">&lt;/textarea>
         &lt;p class="error-message milli island-1-4 push-0" id="email-error">
           &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
-          &lt;span class="icon-label">Please provide your adress&lt;/span>
+          &lt;span class="icon-label">Please provide your address&lt;/span>
         &lt;/p>
       &lt;/div>
     &lt;/fieldset>
@@ -1109,10 +1227,19 @@ The icon card is generally used for calls-to-action on the homepage or highlight
       &lt;/div>
     &lt;/fieldset>
     &lt;div class="text-center">
-      &lt;button class="btn" type="submit">Submit application form&lt;/button>
+      &lt;button class="btn style-2" type="submit">Submit application form&lt;/button>
     &lt;/div>
     &lt;input type="hidden" name="_subject" value="Request to join the mission">
   &lt;/form>
+&lt;/div>
+&lt;div class="bg text-center pad-b">
+  &lt;ul class=" pad-t pad-b">
+    &lt;li class="giga">&lt;b>Contact Us&lt;/b>&lt;/li>
+    &lt;li>&lt;b>Phone:&lt;/b> (613) 725-4279&lt;/li>
+    &lt;li>&lt;b>Adress:&lt;/b> 2425 Totem Ranch Road West &lt;br> RR#1 Oxford Station, ON, K0G 1T0 &lt;/li>
+    &lt;li>&lt;b>Email:&lt;/b> gwen@birchhaven.org&lt;/li>
+  &lt;/ul>
+  &lt;a class="btn milli style" href="#"> Back to top&lt;/a>
 &lt;/div>
 </pre></code>
             </div>
@@ -1179,6 +1306,115 @@ The icon card is generally used for calls-to-action on the homepage or highlight
 
 </section>
 
+        <section class="pattern" id="home">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
+    <h2 class="pattern-name peta push-1-4">Home</h2>
+        <div class="gutter absolute pin-cr">
+          <a class="pattern-pop" href="patterns/home/home.html" target="_blank" title="Open pattern in a new tab">
+            <i class="icon i-18">
+              <svg><use xlink:href="#pop-out" /></svg>
+            </i>
+          </a>
+        </div>
+  </div>
+
+
+  
+
+    <div class="pattern-details" id="home-home">
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/home/home.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="max-height relative"&gt;
+  &lt;img class="img-flex" src="../../images/banner.jpg" alt="Dog photo">
+  &lt;div class="absolute pin-tl pad-t">
+    &lt;i class="icon i-96  pad-t-2 gutter-2 ">
+        &lt;a href="../home/home.html">
+          &lt;svg>
+            &lt;use xlink:href="../../images/icons-w.svg#16"/>
+          &lt;/svg>
+        &lt;/a>
+      &lt;/i>
+  &lt;/div>
+  &lt;h1 class="text-center pin-bc yotta pad-t-1-2 absolute">Birch Haven&lt;/h1>
+&lt;/div>
+&lt;nav class="bg push-none pad-t-1-2">
+  &lt;ul class="list-group list-group-inline center-text">
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="../home/home.html">
+        &lt;span class="gutter-1-2"> Foundation &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="../adopt/adopt.html">
+        &lt;span class="gutter-1-2"> Adopt &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="../forms/form.html">
+        &lt;span class="gutter-1-2"> Application &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="#">
+        &lt;span class="gutter-1-2"> Contact Us &lt;/span>
+      &lt;/a>
+    &lt;/li>
+    &lt;li class="center-text pad-b-1-2">
+      &lt;a class="text-dec pad-t-1-4 pad-b-1-4" href="#">
+        &lt;span class="gutter-1-2"> Donations&lt;/span>
+      &lt;/a>
+    &lt;/li>
+  &lt;/ul>
+  &lt;h2 class="yotta pad-b-1-2 text-center">Foundations&lt;/h2>
+&lt;/nav>
+&lt;div class="grid">
+  &lt;div class="unit text-center push-none">
+
+    &lt;h3 class="color ">Mission Statement&lt;/h3>
+    &lt;p class="unit s-1 m-1 l-3-4 gutter-2">Birch Haven Rescue and Rehabilitation Services; located in Eastern Ontario, Canada on 148 acres was founded in 1996 as a personal rescue to assist those Great Danes/other Giant Canine Breeds and Equine animals that have been abandoned, abused, neglected and otherwise mistreated by rescuing, fostering, rehabilitating physically plus behaviourally and then placing them into their forever loving homes.&lt;/p>
+    &lt;p class="unit s-1 m-1 l-3-4 gutter-2 b-bottom">Dogs are not kenneled outside, they are treated as beloved members of our home and those of our approved temp foster homes. Birch Haven also tries to promote responsible pet ownership through Humane Education, Training, Socialization and Community Public Awareness. We are also involved in Therapy work. We are very small, private and are committed to personal rescue plus re-homing that is completely financed by monetary gifts, owner surrender plus adoption fees as we do not any receive government, provincial or corporate funding. We are financed mainly out of our own pockets.We also work very hard to assist various breeders, rescue groups, shelters, organizations and friends in placing rescues or re-homing animals that come into their hands. We only organize and facilitate in these situations. &lt;/p>
+  &lt;/div>
+  &lt;div>
+    &lt;img class="max-width img-flex" src="../../images/doggie.jpg" alt="puppy">
+  &lt;/div>
+&lt;/div>
+&lt;div class="bg text-center pad-b">
+  &lt;ul class=" pad-t pad-b">
+    &lt;li class="giga">&lt;b>Contact Us&lt;/b>&lt;/li>
+    &lt;li>&lt;b>Phone:&lt;/b> (613) 725-4279&lt;/li>
+    &lt;li>&lt;b>Adress:&lt;/b> 2425 Totem Ranch Road West &lt;br> RR#1 Oxford Station, ON, K0G 1T0 &lt;/li>
+    &lt;li>&lt;b>Email:&lt;/b> gwen@birchhaven.org&lt;/li>
+  &lt;/ul>
+  &lt;a class="btn milli style" href="#"> Back to top&lt;/a>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="navigation">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
     <h2 class="pattern-name peta push-1-4">Navigation</h2>
@@ -1191,6 +1427,11 @@ The icon card is generally used for calls-to-action on the homepage or highlight
         </div>
   </div>
 
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>Nav: |
+to be placed under the banner on each page.</p>
+</div>
+    </div>
 
   
 
@@ -1217,7 +1458,7 @@ The icon card is generally used for calls-to-action on the homepage or highlight
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;div&gt;
+              <code><pre>&lt;nav&gt;
   &lt;ul class="list-group list-group-inline center-text">
     &lt;li class="center-text pad-t-1-2 pad-b-1-2">
       &lt;a class="text-dec pad-t-1-2 pad-b-1-2" href="#">
@@ -1245,7 +1486,7 @@ The icon card is generally used for calls-to-action on the homepage or highlight
       &lt;/a>
     &lt;/li>
   &lt;/ul>
-&lt;/div>
+&lt;/nav>
 </pre></code>
             </div>
           </div>

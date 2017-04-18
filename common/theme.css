@@ -1,10 +1,10 @@
 :root {
-  --color-primary: #ecbb8b;
-  --color-primary-light: white;
-  --color-secondary: #7f7871;
+  --color-primary: #A8BF78;
+  --color-primary-light: #CEDBB3;
+  --color-secondary: black;
   --color-accent: #fff1e3;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: white;
+  --color-neutral-beige: #EBF0DF;
+  --color-whatever: #EFEBF0;
 
   --font-primary: sans-serif;
   --font-secondary: "Roboto Slab", sans-serif;

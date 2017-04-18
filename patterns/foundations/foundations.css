@@ -1,16 +1,9 @@
-h1 {
-  color: var(--color-primary);
-  border-bottom: 4px solid #ecbb8b;
-  background-color: #7f7871;
-}
+
 
 .color {
   color: var(--color-secondary);
 }
 
-body {
-  background-color: var(--color-neutral-beige);
-}
 
 p:last-child .b-bottom {
   border-bottom: 4px solid #7f7871;

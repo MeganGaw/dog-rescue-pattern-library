@@ -2,6 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
+  <title>Application</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="../../common/modules.css">
   <link rel="stylesheet" href="../../common/grid.css">
@@ -9,10 +10,56 @@
   <link rel="stylesheet" href="../../common/theme.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family+overpass:400,400i,700">
   <link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="../footer/footer.css">
+  <link rel="stylesheet" href="../banner/banner.css">
+  <link rel="stylesheet" href="../navigation/nav.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-  <div class="max-length">
+  <div class="max-height relative">
+    <img class="img-flex" src="../../images/banner.jpg" alt="Dog photo">
+    <div class="absolute pin-tl pad-t">
+      <i class="icon i-96  pad-t-2 gutter-2 ">
+        <a href="../home/home.html">
+          <svg>
+            <use xlink:href="../../images/icons-w.svg#16"/>
+          </svg>
+        </a>
+      </i>
+      </div>
+      <h1 class="text-center pin-bc yotta pad-t-1-2 absolute">Birch Haven</h1>
+  </div>
+  <nav class="bg push-none pad-t-1-2">
+    <ul class="list-group list-group-inline center-text">
+      <li class="center-text pad-b-1-2">
+        <a  class="text-dec pad-t-1-4 pad-b-1-4" href="../home/home.html">
+          <span class="gutter-1-2"> Foundation </span>
+        </a>
+      </li>
+      <li class="center-text pad-b-1-2">
+        <a class="text-dec pad-t-1-4 pad-b-1-4" href="../adopt/adopt.html">
+          <span class="gutter-1-2"> Adopt </span>
+        </a>
+      </li>
+      <li class="center-text pad-b-1-2">
+        <a class="text-dec pad-t-1-4 pad-b-1-4" href="../forms/form.html">
+          <span class="gutter-1-2"> Application </span>
+        </a>
+      </li>
+      <li class="center-text pad-b-1-2">
+        <a class="text-dec pad-t-1-4 pad-b-1-4" href="#">
+          <span class="gutter-1-2"> Contact Us </span>
+        </a>
+      </li>
+      <li class="center-text pad-b-1-2">
+        <a class="text-dec pad-t-1-4 pad-b-1-4" href="#">
+          <span class="gutter-1-2"> Donations</span>
+        </a>
+      </li>
+    </ul>
+    <h2 class="yotta pad-b-1-2 text-center">Application</h2>
+  </nav>
+  <div class="max-length pad-b">
     <form class="push-0 pad-t-2 pad-b gutter" method="POST" action="#">
       <h1 class="normal">Want to adopt a dog?</h1>
       <p class="mega">We are looking for the best of the best to adopt our little furballs, fill out the following regristartion form to see if you meat the mark</p>
@@ -40,7 +87,7 @@
             <input id="email" required aria-describedby="email-error">
             <p class="error-message milli island-1-4 push-0" id="email-error">
               <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
-              <span class="icon-label">Please provide a properly formatted email adress</span>
+              <span class="icon-label">Please provide a properly formatted email address</span>
           </div>
           <div class="push unit xs-1 s-1 m-1 l-1-2">
             <label for="fit">Size of dog</label>
@@ -60,7 +107,7 @@
           <textarea id="adr" name="address" required aria-describedby="adr-error"></textarea>
           <p class="error-message milli island-1-4 push-0" id="email-error">
             <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
-            <span class="icon-label">Please provide your adress</span>
+            <span class="icon-label">Please provide your address</span>
         </div>
       </fieldset>
       <fieldset>
@@ -74,10 +121,19 @@
         </div>
       </fieldset>
       <div class="text-center">
-        <button class="btn" type="submit">Submit application form</button>
+        <button class="btn style-2" type="submit">Submit application form</button>
       </div>
       <input type="hidden" name="_subject" value="Request to join the mission">
     </form>
+  </div>
+  <div class="bg text-center pad-b">
+    <ul class=" pad-t pad-b">
+      <li class="giga"><b>Contact Us</b></li>
+      <li><b>Phone:</b> (613) 725-4279</li>
+      <li><b>Adress:</b> 2425 Totem Ranch Road West <br> RR#1 Oxford Station, ON, K0G 1T0 </li>
+      <li><b>Email:</b> gwen@birchhaven.org</li>
+    </ul>
+    <a class="btn milli style" href="#"> Back to top</a>
   </div>
   <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>

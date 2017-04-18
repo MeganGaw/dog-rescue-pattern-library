@@ -1,5 +1,5 @@
 ul {
-  color: white;
+  color: black;
 }
 
 .style {
@@ -9,7 +9,14 @@ ul {
   border-color: var(--colour-light);
 }
 
-.bg {
+.style-2 {
+  color: white;
   background-color: var(--color-secondary);
+  border-radius: 8px;
+  border-color: var(--colour-light);
+}
+
+.bg {
+  background-color: var(--color-neutral-beige);
   border-top: 4px solid var(--color-primary);
 }
