@@ -1,9 +1,6 @@
-
-
 .color {
   color: var(--color-secondary);
 }
-
 
 p:last-child .b-bottom {
   border-bottom: 4px solid #7f7871;

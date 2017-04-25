@@ -19,20 +19,20 @@
   <div class="max-height relative">
     <img class="img-flex" src="../../images/banner.jpg" alt="Dog photo">
     <div class="absolute pin-tl pad-t">
-      <i class="icon i-96  pad-t-2 gutter-2 ">
+      <i class="icon i-96 pad-t-2 gutter-2">
         <a href="../home/home.html">
           <svg>
             <use xlink:href="../../images/icons-w.svg#16"/>
           </svg>
         </a>
       </i>
-      </div>
-      <h1 class="text-center pin-bc yotta pad-t-1-2 absolute">Birch Haven</h1>
+    </div>
+    <h1 class="text-center pin-bc yotta pad-t-1-2 absolute">Birch Haven</h1>
   </div>
   <nav class="bg push-none pad-t-1-2">
     <ul class="list-group list-group-inline center-text">
       <li class="center-text pad-b-1-2">
-        <a  class="text-dec pad-t-1-4 pad-b-1-4" href="../home/home.html">
+        <a class="text-dec pad-t-1-4 pad-b-1-4" href="../home/home.html">
           <span class="gutter-1-2"> Foundation </span>
         </a>
       </li>
@@ -77,7 +77,7 @@
           <div class="push unit xs-1 s-1 m-1 l-1-2">
             <label for="age">Age</label>
             <input id="age" required aria-describedby="name-error">
-            <p class="error-message milli island-1-4 push-0" id="name-error">
+            <p class="error-message milli island-1-4 push-0">
               <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
               <span class="icon-label">Please provide your age</span>
             </p>
@@ -85,39 +85,40 @@
           <div class="push unit xs-1 s-1 m-1 l-1-2">
             <label for="email">Email</label>
             <input id="email" required aria-describedby="email-error">
-            <p class="error-message milli island-1-4 push-0" id="email-error">
-              <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
-              <span class="icon-label">Please provide a properly formatted email address</span>
+            <p class="error-message milli island-1-4 push-0" id="email-error"></p>
+            <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
+            <span class="icon-label">Please provide a properly formatted email address</span>
           </div>
           <div class="push unit xs-1 s-1 m-1 l-1-2">
-            <label for="fit">Size of dog</label>
-            <select id="fit" name="fitness" required aria-describedby="fit-error">
+            <label for="size">Size of dog</label>
+            <select id="size" name="size" required aria-describedby="size">
+              <option label="size"></option>
               <option>teacup</option>
               <option>small</option>
               <option>medium</option>
               <option>large</option>
             </select>
-            <p class="error-message milli island-1-4 push-0" id="email-error">
-              <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
-              <span class="icon-label">Please select your size prefrence</span>
+            <p class="error-message milli island-1-4 push-0"></p>
+            <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
+            <span class="icon-label">Please select your size prefrence</span>
           </div>
         </div>
         <div class="push">
           <label for="adr">Address</label>
-          <textarea id="adr" name="address" required aria-describedby="adr-error"></textarea>
-          <p class="error-message milli island-1-4 push-0" id="email-error">
-            <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
-            <span class="icon-label">Please provide your address</span>
+          <textarea id="adr" name="address" required aria-describedby="adr"></textarea>
+          <p class="error-message milli island-1-4 push-0"></p>
+          <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
+          <span class="icon-label">Please provide your address</span>
         </div>
       </fieldset>
       <fieldset>
         <legend class="xs-2-3 pad-b"><i>Statement</i></legend>
         <div class="push">
           <label for="statement">Why do you want to adopt a dog</label>
-          <textarea id="statement" name="statement" required aria-describedby="statement-error"></textarea>
-          <p class="error-message milli island-1-4 push-0" id="email-error">
-            <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
-            <span class="icon-label">Please explain why you want to adopt a dog</span>
+          <textarea id="statement" name="statement" required aria-describedby="statement"></textarea>
+          <p class="error-message milli island-1-4 push-0"></p>
+          <i class="icon i-16"><svg><use xlink:href="images/icon.svg#error"/></svg></i>
+          <span class="icon-label">Please explain why you want to adopt a dog</span>
         </div>
       </fieldset>
       <div class="text-center">

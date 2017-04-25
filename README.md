@@ -8,9 +8,9 @@ fonts:
     The Secondary typeface is a simple sans-serif to use in the basic paragraphs and list items as to not distract from the main headings.
 colors:
   primary: |
-    The primary color is a darker shade of orange to allow it to stand out from the rest.
+    The primary color is a darker shade of green to allow it to stand out from the rest.
   secondary: |
-    The secondary color is a darker brown grey used for hover states or give more interest to a piece
+    The secondary color is a light shade of green used for hover states or give more interest to a piece
   neutral: |
     the neutral colors a bland, their real purpose is for body copy tables ect.
 ---
