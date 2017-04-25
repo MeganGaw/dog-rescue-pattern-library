@@ -1121,7 +1121,7 @@ Basic layout for any form that needs to be styled on website</p>
               <code><pre>&lt;div class="max-height relative"&gt;
   &lt;img class="img-flex" src="../../images/banner.jpg" alt="Dog photo">
   &lt;div class="absolute pin-tl pad-t">
-    &lt;i class="icon i-96  pad-t-2 gutter-2 ">
+    &lt;i class="icon i-96 pad-t-2 gutter-2">
         &lt;a href="../home/home.html">
           &lt;svg>
             &lt;use xlink:href="../../images/icons-w.svg#16"/>
@@ -1179,7 +1179,7 @@ Basic layout for any form that needs to be styled on website</p>
         &lt;div class="push unit xs-1 s-1 m-1 l-1-2">
           &lt;label for="age">Age&lt;/label>
           &lt;input id="age" required aria-describedby="name-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="name-error">
+          &lt;p class="error-message milli island-1-4 push-0">
             &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
             &lt;span class="icon-label">Please provide your age&lt;/span>
           &lt;/p>
@@ -1187,43 +1187,40 @@ Basic layout for any form that needs to be styled on website</p>
         &lt;div class="push unit xs-1 s-1 m-1 l-1-2">
           &lt;label for="email">Email&lt;/label>
           &lt;input id="email" required aria-describedby="email-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
-          &lt;/p>
+          &lt;p class="error-message milli island-1-4 push-0" id="email-error">&lt;/p>
+          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
+          &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
         &lt;/div>
         &lt;div class="push unit xs-1 s-1 m-1 l-1-2">
-          &lt;label for="fit">Size of dog&lt;/label>
-          &lt;select id="fit" name="fitness" required aria-describedby="fit-error">
+          &lt;label for="size">Size of dog&lt;/label>
+          &lt;select id="size" name="size" required aria-describedby="size">
+            &lt;option label="size">&lt;/option>
             &lt;option>teacup&lt;/option>
             &lt;option>small&lt;/option>
             &lt;option>medium&lt;/option>
             &lt;option>large&lt;/option>
           &lt;/select>
-          &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please select your size prefrence&lt;/span>
-          &lt;/p>
+          &lt;p class="error-message milli island-1-4 push-0">&lt;/p>
+          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
+          &lt;span class="icon-label">Please select your size prefrence&lt;/span>
         &lt;/div>
       &lt;/div>
       &lt;div class="push">
         &lt;label for="adr">Address&lt;/label>
-        &lt;textarea id="adr" name="address" required aria-describedby="adr-error">&lt;/textarea>
-        &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
-          &lt;span class="icon-label">Please provide your address&lt;/span>
-        &lt;/p>
+        &lt;textarea id="adr" name="address" required aria-describedby="adr">&lt;/textarea>
+        &lt;p class="error-message milli island-1-4 push-0">&lt;/p>
+        &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">Please provide your address&lt;/span>
       &lt;/div>
     &lt;/fieldset>
     &lt;fieldset>
       &lt;legend class="xs-2-3 pad-b">&lt;i>Statement&lt;/i>&lt;/legend>
       &lt;div class="push">
         &lt;label for="statement">Why do you want to adopt a dog&lt;/label>
-        &lt;textarea id="statement" name="statement" required aria-describedby="statement-error">&lt;/textarea>
-        &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
-          &lt;span class="icon-label">Please explain why you want to adopt a dog&lt;/span>
-        &lt;/p>
+        &lt;textarea id="statement" name="statement" required aria-describedby="statement">&lt;/textarea>
+        &lt;p class="error-message milli island-1-4 push-0">&lt;/p>
+        &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icon.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">Please explain why you want to adopt a dog&lt;/span>
       &lt;/div>
     &lt;/fieldset>
     &lt;div class="text-center">
@@ -1292,7 +1289,7 @@ Basic layout for any form that needs to be styled on website</p>
     &lt;h1 class="yotta pad-t ">Foundations&lt;/h1>
     &lt;h2 class="color ">Mission Statement&lt;/h2>
     &lt;p class="unit s-1 m-1 l-3-4 gutter-2">Birch Haven Rescue and Rehabilitation Services; located in Eastern Ontario, Canada on 148 acres was founded in 1996 as a personal rescue to assist those Great Danes/other Giant Canine Breeds and Equine animals that have been abandoned, abused, neglected and otherwise mistreated by rescuing, fostering, rehabilitating physically plus behaviourally and then placing them into their forever loving homes.&lt;/p>
-    &lt;p class="unit s-1 m-1 l-3-4 gutter-2 b-bottom">Dogs are not kenneled outside, they are treated as beloved members of our home and those of our approved temp foster homes. Birch Haven also tries to promote responsible pet ownership through Humane Education, Training, Socialization and Community Public Awareness. We are also involved in Therapy work. We are very small, private and are committed to personal rescue plus re-homing that is completely financed by monetary gifts, owner surrender plus adoption fees as we do not any receive government, provincial or corporate funding. We are financed mainly out of our own pockets.We also work very hard to assist various breeders, rescue groups, shelters, organizations and friends in placing rescues or re-homing animals that come into their hands. We only organize and facilitate in these situations. &lt;/p>
+    &lt;p class="unit s-1 m-1 l-3-4 gutter-2 b-bottom">Dogs are not kenneled outside, they are treated as beloved members of our home and those of our approved temp foster homes.Birch Haven also tries to promote responsible pet ownership through Humane Education, Training, Socialization and Community Public Awareness. We are also involved in Therapy work. We are very small, private and are committed to personal rescue plus re-homing that is completely financed by monetary gifts, owner surrender plus adoption fees as we do not any receive government, provincial or corporate funding. We are financed mainly out of our own pockets.We also work very hard to assist various breeders, rescue groups, shelters, organizations and friends in placing rescues or re-homing animals that come into their hands. We only organize and facilitate in these situations.&lt;/p>
   &lt;/div>
   &lt;div>
     &lt;img class="max-width" src="../../images/doggie.jpg" alt="puppy">
@@ -1347,7 +1344,7 @@ Basic layout for any form that needs to be styled on website</p>
               <code><pre>&lt;div class="max-height relative"&gt;
   &lt;img class="img-flex" src="../../images/banner.jpg" alt="Dog photo">
   &lt;div class="absolute pin-tl pad-t">
-    &lt;i class="icon i-96  pad-t-2 gutter-2 ">
+    &lt;i class="icon i-96 pad-t-2 gutter-2">
         &lt;a href="../home/home.html">
           &lt;svg>
             &lt;use xlink:href="../../images/icons-w.svg#16"/>
@@ -1392,7 +1389,7 @@ Basic layout for any form that needs to be styled on website</p>
 
     &lt;h3 class="color ">Mission Statement&lt;/h3>
     &lt;p class="unit s-1 m-1 l-3-4 gutter-2">Birch Haven Rescue and Rehabilitation Services; located in Eastern Ontario, Canada on 148 acres was founded in 1996 as a personal rescue to assist those Great Danes/other Giant Canine Breeds and Equine animals that have been abandoned, abused, neglected and otherwise mistreated by rescuing, fostering, rehabilitating physically plus behaviourally and then placing them into their forever loving homes.&lt;/p>
-    &lt;p class="unit s-1 m-1 l-3-4 gutter-2 b-bottom">Dogs are not kenneled outside, they are treated as beloved members of our home and those of our approved temp foster homes. Birch Haven also tries to promote responsible pet ownership through Humane Education, Training, Socialization and Community Public Awareness. We are also involved in Therapy work. We are very small, private and are committed to personal rescue plus re-homing that is completely financed by monetary gifts, owner surrender plus adoption fees as we do not any receive government, provincial or corporate funding. We are financed mainly out of our own pockets.We also work very hard to assist various breeders, rescue groups, shelters, organizations and friends in placing rescues or re-homing animals that come into their hands. We only organize and facilitate in these situations. &lt;/p>
+    &lt;p class="unit s-1 m-1 l-3-4 gutter-2 b-bottom">Dogs are not kenneled outside, they are treated as beloved members of our home and those of our approved temp foster homes.Birch Haven also tries to promote responsible pet ownership through Humane Education, Training, Socialization and Community Public Awareness. We are also involved in Therapy work.We are very small, private and are committed to personal rescue plus re-homing that is completely financed by monetary gifts, owner surrender plus adoption fees as we do not any receive government, provincial or corporate funding. We are financed mainly out of our own pockets.We also work very hard to assist various breeders, rescue groups, shelters, organizations and friends in placing rescues or re-homing animals that come into their hands. We only organize and facilitate in these situations. &lt;/p>
   &lt;/div>
   &lt;div>
     &lt;img class="max-width img-flex" src="../../images/doggie.jpg" alt="puppy">
